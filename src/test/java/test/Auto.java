@@ -12,6 +12,8 @@ public class Auto {
 	Asiento asientos[];
 	Motor motor;
 	
+	public Auto() {}
+	
 	public Auto(String marca, String modelo, int precio, int registro, Asiento[] asientos,
 			Motor motor) {
 

@@ -6,6 +6,8 @@ public class Motor {
 	String tipo;
 	int registro;
 	
+	public Motor() {}
+	
 	public Motor(int numeroCilindros, String tipo, int registro) {
 		super();
 		this.numeroCilindros = numeroCilindros;
